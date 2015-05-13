@@ -1,0 +1,62 @@
+<template name='play'>
+    {{> signupLogin}}
+    {{#if currentUser}}
+        {{> table}}
+        {{> hand}}
+    {{/if}}
+</template>
+
+<template name='table'>
+    <div id='table'>
+        {{> opponentTable}}
+        {{> playerTable}}
+    </div>
+</template>
+
+<template name='opponentTable'>
+    <div id='opponentTable'>
+        {{# each otherPlayer.table}}
+            {{> card}}
+        {{/each}}
+    </div>
+</template>
+
+<template name='playerTable'>
+    <div id='playerTable'>
+        {{# each player.table}}
+            {{> card}}
+        {{/each}}
+    </div>
+</template>
+
+<template name='hand'>
+    <div id='hand'>
+        {{> deck}}
+        {{# each player.hand}}
+            {{> card}}
+        {{/each}}
+    </div>
+</template>
+
+<template name='deck'>
+    <div class='deck'>
+        <div>Deck</div>
+    </div>
+</template>
+
+<template name='card'>
+    <div class='card {{type}}'>
+        <div>{{name}}</div>
+        <div>{{type}}</div>
+        {{#if typeIs 'Creature'}}
+            <div>{{attack}}/{{health}}</div>
+        {{/if}}
+        {{#if typeIs 'Spell'}}
+            <div>{{effectText}}</div>
+        {{/if}}
+        {{#if typeIs 'Enchant'}}
+            <div>{{effectText}}</div>
+            <div>Counters : {{counters}}</div>
+        {{/if}}
+    </div>
+</template>

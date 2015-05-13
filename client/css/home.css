@@ -1,0 +1,78 @@
+
+#gameList {
+    background: #D4D4D4;
+    float: left;
+    width: 425px;
+}
+
+#userList {
+    float: right;
+    width: 425px;
+    background: #D4D4D4;
+}
+
+#gameList h1, #userList h1 {
+    background: #3399cc;
+    padding: 10px 0 0 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: 0px;
+}
+
+#gameList p, #userList p {
+    background: #3399cc;
+    font-size: 100%;
+    font-weight: 300;
+    text-align: left;
+    color: #fff;
+    padding: 10px 0 10px 10px;
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#userName {
+    width: 300px;
+    margin: 7px;
+}
+
+#userName button {
+    font-size: 100%;
+    width: 100%;
+    background: #3399cc;
+    border: 0;
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;
+    color: #fff;
+    transition: background .3s;
+    -webkit-transition: background .3s;
+}
+
+#userName button:hover {
+    background: #2288bb;
+}
+
+#gameItem {
+    width: 300px;
+    margin: 7px;
+    background: #3399cc;
+    border: 0;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background .3s;
+    -webkit-transition: background .3s;
+}
+
+#gameItem:hover {
+    background: #2288bb;
+}
+
+#gameItem a {
+    color: #fff;
+    text-decoration: none;
+}

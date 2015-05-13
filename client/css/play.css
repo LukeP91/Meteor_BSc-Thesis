@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #F0F0F0;
+}
+
+#main {
+    max-width: 900px;
+    margin: auto;
+    position: relative;
+}
+
+#table {
+    border-radius: 20px;
+    background: #3399CC;
+    min-height: 575px;
+    position: relative;
+}
+
+#opponentTable {
+    border-radius: 20px;
+    background: #B7B7B7;
+    min-height: 250px;
+    max-width: 850px;
+    min-width: 850px;
+    position: relative;
+    display: inline-block;
+    margin: 20px 25px 10px 25px;
+
+}
+
+#playerTable {
+    border-radius: 20px;
+    background: #B7B7B7;
+    min-height: 250px;
+    max-width: 850px;
+    min-width: 850px;
+    position: relative;
+    display: inline-block;
+    margin: 10px 25px 20px 25px;
+}
+
+#hand {
+    border-radius: 20px;
+    background: #B7B7B7;
+    margin-top: 20px;
+    margin-left: 25px;
+    min-height: 200px;
+    max-width: 850px;
+    min-width: 850px;
+}
+
+.deck {
+    background: #fff;
+    border: 1px solid #000;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px 10px 15px 10px;
+    width: 112px;
+    height: 175px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    font-size: 12px;
+}
+
+.deck:hover {
+    cursor: pointer;
+    transform: rotate(10deg);
+}

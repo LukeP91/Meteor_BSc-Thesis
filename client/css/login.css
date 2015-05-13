@@ -1,0 +1,138 @@
+#login {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 8px;
+    margin-bottom: 2%;
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+}
+
+#login h1 {
+    background: #3399cc;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: 0px;
+}
+
+#login form {
+    background: #D4D4D4;
+    padding: 6% 4%;
+}
+
+#login input[type="text"], input[type="password"] {
+    width: 92%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 4%;
+    font-size: 95%;
+    color: #555;
+}
+
+#login button {
+    width: 100%;
+    background: #3399cc;
+    border: 0;
+    padding: 4%;
+    font-size: 100%;
+    color: #fff;
+    cursor: pointer;
+    transition: background .3s;
+    -webkit-transition: background .3s;
+}
+
+#login button:hover {
+    background: #2288bb;
+}
+
+#logout {
+    background: #D4D4D4;
+    width: 900px;
+    margin: 0;
+    margin-bottom: 2%;
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+    min-height: 38px;
+    position: relative;
+}
+
+#username {
+    display: inline-block;
+    vertical-align: top;
+    width: 160px;
+    padding: 5px 5px 5px 5px;
+    font-size: 100%;
+    text-align: center;
+    color: #000;
+    margin: 5px 0 5px 5px;
+    position: absolute;
+    right: 150px;
+}
+
+#logoutButton {
+
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    margin: 5px;
+    position: absolute;
+    right: 5px;
+}
+
+#logout button {
+    width: 100%;
+    background: #3399cc;
+    border: 0;
+    padding: 5px 5px 5px 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    color: #fff;
+    cursor: pointer;
+    transition: background .3s;
+    -webkit-transition: background .3s;
+}
+
+#logout button:hover {
+    background: #2288bb;
+}
+
+#home {
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    margin: 5px;
+    position: absolute;
+    left: 5px;
+    background: #3399cc;
+    border: 0;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background .3s;
+    -webkit-transition: background .3s;
+}
+
+#home:hover {
+    background: #2288bb;
+}
+
+#home a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#playerTurnInfo {
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    padding: 5px 5px 5px 5px;
+    font-size: 100%;
+    text-align: center;
+    color: #000;
+    margin: 5px 0 5px 5px;
+    position: absolute;
+    left: 110px;
+}
